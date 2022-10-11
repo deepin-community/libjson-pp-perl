@@ -1,0 +1,9 @@
+libjson-pp-perl (4.00000-1) unstable; urgency=medium
+
+  From upstream Changes for 3.99_01:
+
+  BACKWARD INCOMPATIBILITY:
+    As JSON::XS 4.0 changed its policy and enabled allow_nonref by default,
+    JSON::PP also enabled allow_nonref by default
+
+ -- gregor herrmann <gregoa@debian.org>  Tue, 25 Dec 2018 19:05:45 +0100

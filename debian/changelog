@@ -1,0 +1,203 @@
+libjson-pp-perl (4.06000-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 4.06000.
+  * Declare compliance with Debian Policy 4.5.1.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 30 Jan 2021 19:26:06 +0100
+
+libjson-pp-perl (4.05000-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 4.05000.
+  * debian/preinst: drop old code which fixed a diversion error.
+  * Declare compliance with Debian Policy 4.5.0.
+  * Set Rules-Requires-Root: no.
+  * Bump debhelper-compat to 13.
+  * Set upstream metadata fields: Bug-Submit.
+  * Remove obsolete fields Name, Contact from debian/upstream/metadata.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 10 Jul 2020 19:27:34 +0200
+
+libjson-pp-perl (4.04000-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 4.04000.
+  * Annotate test-only build dependencies with <!nocheck>.
+  * Declare compliance with Debian Policy 4.4.0.
+  * Bump debhelper-compat to 12.
+  * debian/watch: use uscan version 4.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 20 Jul 2019 13:57:55 -0300
+
+libjson-pp-perl (4.02000-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 4.02000.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 25 Feb 2019 18:09:05 +0100
+
+libjson-pp-perl (4.00000-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ gregor herrmann ]
+  * Import upstream version 4.00000.
+  * Update debian/upstream/metadata.
+  * Add a note about a backwards incompatible change to debian/NEWS.
+  * Declare compliance with Debian Policy 4.3.0.
+  * Bump debhelper compatibility level to 11.
+  * Remove trailing whitespace from debian/*.
+
+ -- gregor herrmann <gregoa@debian.org>  Tue, 25 Dec 2018 19:09:03 +0100
+
+libjson-pp-perl (2.97001-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Damyan Ivanov ]
+  * declare conformance with Policy 4.1.3 (no changes needed)
+
+  [ gregor herrmann ]
+  * Import upstream version 2.97001.
+    Fixes "[PATCH] document json_pp option separation"
+    (Closes: #882864)
+  * Bump debhelper compatibility level to 10.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 14 Jan 2018 18:27:02 +0100
+
+libjson-pp-perl (2.97000-1) unstable; urgency=medium
+
+  [ Alex Muntada ]
+  * Remove inactive pkg-perl members from Uploaders.
+
+  [ Dominic Hargreaves ]
+  * New upstream release (Closes: #882185)
+  * Update Standards-Version (no changes)
+
+ -- Dominic Hargreaves <dom@earth.li>  Sun, 26 Nov 2017 19:14:06 +0000
+
+libjson-pp-perl (2.94000-1) unstable; urgency=medium
+
+  * Team upload.
+
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+  * Remove Jonathan Yu from Uploaders. Thanks for your work!
+  * debian/watch: add uversionmangle, upstream changed version scheme.
+  * Add debian/upstream/metadata.
+
+  * Import upstream version 2.94000.
+    Fixes "mention json_pp on JSON::PP man page" (Closes: #807003)
+  * Update years of upstream copyright.
+  * Declare compliance with Debian Policy 4.0.0.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 24 Jun 2017 21:59:24 +0200
+
+libjson-pp-perl (2.27400-1) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ Dominique Dumont ]
+  * Imported Upstream version 2.27400
+  * control:
+    - removed versioned recommends/break/replace on libjson-perl
+    * added testsuite param
+    * Standards-Version: '3.9.6' -> '3.9.8'
+    * added dod to uploaders
+  * bumped compat to 9
+
+
+ -- Dominique Dumont <dod@debian.org>  Thu, 05 May 2016 19:20:10 +0200
+
+libjson-pp-perl (2.27300-2) unstable; urgency=medium
+
+  * Team upload.
+
+  * postrm, preinst: fix name of diverted man page (Closes: #712895)
+
+ -- Dominique Dumont <dod@debian.org>  Mon, 20 Oct 2014 13:20:07 +0200
+
+libjson-pp-perl (2.27300-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+
+  [ Dominique Dumont ]
+  * Imported Upstream version 2.27300
+  * control: updated std-version
+
+ -- Dominique Dumont <dod@debian.org>  Thu, 09 Oct 2014 16:51:19 +0200
+
+libjson-pp-perl (2.27203-1) unstable; urgency=low
+
+  * Team upload
+
+  * Imported Upstream version 2.27203
+    + fixes erroneous 'return $foo or $bar' construct in _incr_parse()
+
+ -- Damyan Ivanov <dmn@debian.org>  Sat, 19 Oct 2013 22:14:55 +0300
+
+libjson-pp-perl (2.27202-1) unstable; urgency=low
+
+  * Team upload.
+
+  [ Alessandro Ghedini ]
+  * Email change: Alessandro Ghedini -> ghedo@debian.org
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ gregor herrmann ]
+  * New upstream release.
+    Fixes "FTBFS with perl 5.18: t/019_incr.t"
+    (Closes: #710794)
+  * Update years of upstream copyright.
+  * debian/copyright: switch formatting to Copyright-Format 1.0.
+  * Set Standards-Version to 3.9.4 (no changes).
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 02 Jun 2013 19:32:17 +0200
+
+libjson-pp-perl (2.27200-2) unstable; urgency=high
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Salvatore Bonaccorso ]
+  * debian/copyright: Replace DEP5 Format-Specification URL from
+    svn.debian.org to anonscm.debian.org URL.
+
+  [ Dominic Hargreaves ]
+  * Add diverts for /usr/bin/json_pp (and corresponding manpage) since
+    perl 5.14 also ships these (Closes: 648880)
+
+ -- Dominic Hargreaves <dom@earth.li>  Tue, 15 Nov 2011 21:23:41 +0000
+
+libjson-pp-perl (2.27200-1) unstable; urgency=low
+
+  [ Ansgar Burchardt ]
+  * New upstream release 2.27105
+
+  [ Alessandro Ghedini ]
+  * New upstream release
+  * Bump debhelper compat level to 8
+  * Update upstream copyright year
+  * Bump Standards-Version to 3.9.2 (no changes needed)
+  * Add myself to Uploaders
+
+ -- Alessandro Ghedini <al3xbio@gmail.com>  Sun, 05 Jun 2011 15:21:40 +0200
+
+libjson-pp-perl (2.27104-1) unstable; urgency=low
+
+  * Initial Release (Closes: #615002)
+
+ -- Jonathan Yu <jawnsy@cpan.org>  Sat, 26 Feb 2011 10:06:58 -0500

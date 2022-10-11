@@ -1,0 +1,29 @@
+Source: libjson-pp-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Dominic Hargreaves <dom@earth.li>,
+           Dominique Dumont <dod@debian.org>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libtest-pod-perl <!nocheck>,
+                     perl
+Standards-Version: 4.5.1
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libjson-pp-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libjson-pp-perl.git
+Homepage: https://metacpan.org/release/JSON-PP
+Rules-Requires-Root: no
+
+Package: libjson-pp-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends}
+Recommends: libjson-perl
+Description: module for manipulating JSON-formatted data (Pure Perl)
+ JSON::PP is a module for manipulating data stored in the JavaScript Object
+ Notation (JSON) serialization format (defined in RFC 4627), which serves as
+ an alternative to XML.
+ .
+ This Pure Perl JSON implementation will become a core module beginning with
+ perl 5.13, and will be loaded by the JSON module (see libjson-perl) if the
+ C/XS-accelerated version (see libjson-xs-perl) is not available.
