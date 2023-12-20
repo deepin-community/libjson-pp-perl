@@ -1,3 +1,58 @@
+libjson-pp-perl (4.16000-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 4.16000.
+  * Declare compliance with Debian Policy 4.6.2.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 01 Jan 2023 17:52:39 +0100
+
+libjson-pp-perl (4.12000-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 4.12000.
+    Fixes GitHub issue #76: "Subroutine JSON::PP::Boolean::(-- redefined with
+    newer perls"
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 09 Oct 2022 02:08:49 +0200
+
+libjson-pp-perl (4.11000-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 4.11000.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 03 Aug 2022 21:05:51 +0200
+
+libjson-pp-perl (4.10000-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 4.10000.
+  * Update long description.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 25 Jun 2022 11:54:27 +0200
+
+libjson-pp-perl (4.09000-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 4.09000.
+  * Declare compliance with Debian Policy 4.6.1.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 25 May 2022 11:44:49 +0200
+
+libjson-pp-perl (4.08000-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 4.08000.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 15 Apr 2022 16:36:40 +0200
+
+libjson-pp-perl (4.07000-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 4.07000.
+  * Declare compliance with Debian Policy 4.6.0.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 19 Dec 2021 00:52:14 +0100
+
 libjson-pp-perl (4.06000-1) unstable; urgency=medium
 
   * Team upload.

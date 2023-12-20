@@ -1,5 +1,41 @@
 Revision history for Perl extension JSON::PP.
 
+4.16 2022-12-30
+    - drop support for perls < 5.8 (GH#84, haarg++)
+
+4.15 2022-12-27
+    - fix core bool test to not ignore errors (GH#82, haarg++)
+
+4.14 2022-12-26
+    - updated manifest (GH#81, demerphq++)
+
+4.13 2022-12-26
+    - Break up 099_binary.t into 16 pieces that can be tested in parallel (GH#80, demerphq++)
+
+4.12 2022-10-09
+    - call unimport overload first to silence warnings (GH#76, haarg++)
+
+4.11 2022-07-31
+    - restored cre boolean support (GH#73, #74, haarg++)
+
+4.10 2022-06-24
+    - fix a regression of decode_error introduced at 4.08 (GH#75, reported by andk++)
+    - convert all tests to use Test::More (GH#70, haarg++)
+
+4.09 2022-05-22
+    - reverted core boolean support for now (GH#72)
+    - incr_parse() Hangs on Certain Inputs (GH#67, DabeDotCom++)
+    - silence warnings about non-characters on older perls (GH#68, haarg++)
+
+4.08 2022-04-10
+    - remove unneeded utf8::upgrade and downgrade (GH#59, FGasper++)
+    - core boolean support (GH#62, 63, haarg++)
+    - EBCDIC support (GH#64, khwilliamson++)
+    - shorten a test name (GH#65, khwilliamson)
+
+4.07 2021-12-17
+    - fix incr_parse($unicode_str) bug (GH#56, DabeDotCom++)
+
 4.06 2021-01-24
     - fix return values of boolean_values for compatibility
       (yahermann++)
